@@ -1,4 +1,4 @@
-﻿
+﻿from: default-environment-1.0
 server:
 #测试config4
   port: 8716

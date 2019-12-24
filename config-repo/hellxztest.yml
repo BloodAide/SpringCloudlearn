@@ -1,4 +1,4 @@
-﻿
+﻿from: default-environment-2.0
 server:
 #测试config1
   port: 8712

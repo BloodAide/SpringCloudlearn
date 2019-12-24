@@ -1,4 +1,4 @@
-﻿
+﻿from: default-environment-5.0
 server:
 #测试config3
   port: 8714

@@ -1,4 +1,4 @@
-﻿
+﻿from: default-environment-3.0
 server:
 #测试config2
   port: 8713

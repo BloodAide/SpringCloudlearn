@@ -2,5 +2,10 @@
 server:
 #测试config4
   port: 8716
-  
  
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/waf_6?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
+    username: root
+    password: root
+    driverClassName: com.mysql.jdbc.Driver

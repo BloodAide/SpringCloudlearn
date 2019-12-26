@@ -1,19 +1,20 @@
-﻿from: default-environment-323333333333333333
-server:
+﻿server:
 #测试config4
   port: 8716
  
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+ 
 spring:
+  application:
+    name: this-server1-config
   datasource:
     url: jdbc:mysql://localhost:3306/waf_6?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
     username: root
     password: root
     driverClassName: com.mysql.jdbc.Driver
 
-  application:
-    name: this-server1-config
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: http://localhost:8761/eureka/
 
+from: default-environment-323333333333333333
